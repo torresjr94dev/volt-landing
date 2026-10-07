@@ -1,0 +1,21 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nunca commitear binarios: el APK vive en GitHub Releases
+*.apk
+*.aab
+
+# Node / Vite
+node_modules/
+dist/
+.vite/
+
+# Frames extraídos de video (pesan; se regeneran con pnpm frames)
+src/frames/*.webp
+src/frames/*.jpg
+
+# Editores
+.vscode/
+.idea/
